@@ -32,10 +32,10 @@ decks/针灸与人文/穴位定位闪卡_按经络分类.md.meta.json
 ```json
 {
   "file": "穴位定位闪卡_按经络分类.md",
-  "size": 28968,
+  "size": 5034,
   "uploadedAt": "2026-10-28T21:05:00+08:00",
   "uploader": "abaguai6689",
-  "description": "整理自2027年学霸笔记针灸学，按照经络分类。"
+  "description": "整理自2027年学霸笔记针灸学，仅保留耳穴章节。"
 }
 ```
 
