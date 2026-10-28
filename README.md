@@ -21,17 +21,17 @@ decks/
 
 ## 信息文件格式
 
-以 `decks/针灸与人文/穴位定位闪卡_按经络分类.md` 为例，信息文件必须是：
+以 `decks/针灸与人文/穴位定位闪卡_按经络分类_不含耳穴.md` 为例，信息文件必须是：
 
 ```text
-decks/针灸与人文/穴位定位闪卡_按经络分类.md.meta.json
+decks/针灸与人文/穴位定位闪卡_按经络分类_不含耳穴.md.meta.json
 ```
 
 内容：
 
 ```json
 {
-  "file": "穴位定位闪卡_按经络分类.md",
+  "file": "穴位定位闪卡_按经络分类_不含耳穴.md",
   "size": 24162,
   "uploadedAt": "2026-10-28T21:05:00+08:00",
   "uploader": "abaguai6689",
@@ -76,7 +76,7 @@ git clone https://github.com/abaguai6689/suishibeisong-cloud.git
 cd suishibeisong-cloud
 
 mkdir -p "decks/针灸与人文"
-cp "/path/to/穴位定位闪卡_按经络分类.md" "decks/针灸与人文/"
+cp "/path/to/穴位定位闪卡_按经络分类_不含耳穴.md" "decks/针灸与人文/"
 # 创建同目录的 .meta.json，字段见上
 
 git add "decks/针灸与人文"
@@ -88,11 +88,11 @@ git push
 
 ```bash
 # 先把内容转成 base64，再 PUT 到 contents API
-base64 -w 0 "穴位定位闪卡_按经络分类.md" > /tmp/deck.b64
+base64 -w 0 "穴位定位闪卡_按经络分类_不含耳穴.md" > /tmp/deck.b64
 curl -X PUT \
   -H "Authorization: Bearer <你的 token>" \
   -H "Accept: application/vnd.github+json" \
-  https://api.github.com/repos/abaguai6689/suishibeisong-cloud/contents/decks/针灸与人文/穴位定位闪卡_按经络分类.md \
+  https://api.github.com/repos/abaguai6689/suishibeisong-cloud/contents/decks/针灸与人文/穴位定位闪卡_按经络分类_不含耳穴.md \
   -d "{\"message\":\"add deck\",\"content\":\"$(cat /tmp/deck.b64)\"}"
 ```
 
