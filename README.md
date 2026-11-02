@@ -34,6 +34,7 @@ decks/针灸与人文/穴位定位.md.meta.json
   "file": "穴位定位.md",
   "id": "acupoint-location",
   "version": 1,
+  "group": "针灸学",
   "size": 24162,
   "uploadedAt": "2026-10-28T21:05:00+08:00",
   "uploader": "abaguai6689",
@@ -52,6 +53,7 @@ decks/针灸与人文/穴位定位.md.meta.json
 | `description` | 是 | 文件说明，建议 1～200 字，说明来源、范围、分类方式 |
 | `id` | 是 | 文件唯一 ID，更新时保持不变 |
 | `version` | 是 | 整数版本号；更新文件时递增，App 用它判断是否需要提示更新 |
+| `group` | 否 | 分组名；相同分组的卡组在首页折叠为一个大组，例如「针灸学」 |
 
 `size` 可以用以下命令获取：
 
