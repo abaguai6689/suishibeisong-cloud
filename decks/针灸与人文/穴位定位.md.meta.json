@@ -5,5 +5,6 @@
   "uploader": "abaguai6689",
   "description": "整理自2027年学霸笔记针灸学，按照经络分类，已移除耳穴章节。",
   "id": "acupoint-location",
-  "version": 1
+  "version": 1,
+  "group": "针灸学"
 }
